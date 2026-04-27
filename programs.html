@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Programs | Krishna's Noble Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <div class="spinner"></div>
+            <div class="foundation-initials">KNF</div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon"><i class="fas fa-hands-holding-heart"></i></div>
+                <div class="logo-text">
+                    <span class="logo-main">Krishna's Noble</span>
+                    <span class="logo-sub">Foundation</span>
+                </div>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="programs.html" class="nav-link active">Programs</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="donate.html" class="btn-donate-nav"><i class="fas fa-heart"></i><span>Donate</span></a>
+                <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="mobile-logo"><i class="fas fa-hands-holding-heart"></i><span>Krishna's Noble Foundation</span></div>
+            <button class="mobile-close" id="mobileClose"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="mobile-nav-menu">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="programs.html"><i class="fas fa-hand-holding-heart"></i> Programs</a></li>
+            <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            <li><a href="donate.html" class="mobile-donate-btn"><i class="fas fa-heart"></i> Donate Now</a></li>
+        </ul>
+    </div>
+
+    <section class="page-header">
+        <div class="page-header-bg">
+            <div class="pattern-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="page-header-content">
+                <div class="breadcrumbs">
+                    <a href="index.html">Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Programs</span>
+                </div>
+                <h1>Our <span class="highlight-text">Programs</span></h1>
+                <p>Discover the initiatives that are making a real difference in our community</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="programs-section">
+        <div class="container">
+            <div class="programs-intro">
+                <h2>Making a <span class="highlight-text">Real Impact</span></h2>
+                <p>At Krishna's Noble Foundation, we run multiple programs focused on education, healthcare, nutrition, and community development. Each program is designed to address specific needs of the underprivileged sections of our society.</p>
+            </div>
+
+            <div class="programs-list">
+                <!-- Program 1: Education -->
+                <div class="program-detail-card" id="education">
+                    <div class="program-detail-image">
+                        <div class="image-placeholder"><i class="fas fa-graduation-cap"></i></div>
+                        <span class="program-category">Education</span>
+                    </div>
+                    <div class="program-detail-content">
+                        <h3>Shiksha Samriddhi - Education for All</h3>
+                        <p>Our flagship education program focuses on providing free education, books, stationery, and scholarships to underprivileged children who cannot afford formal education. We believe that education is the foundation of societal progress.</p>
+                        <div class="program-features">
+                            <div class="feature-item"><i class="fas fa-check"></i> Free tuition classes</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Free books and stationery</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Scholarship programs</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Computer literacy training</div>
+                        </div>
+                        <div class="program-stats">
+                            <div class="prog-stat"><span class="prog-stat-number">500+</span><span class="prog-stat-label">Students Enrolled</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">50+</span><span class="prog-stat-label">Volunteer Teachers</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">10</span><span class="prog-stat-label">Learning Centers</span></div>
+                        </div>
+                        <div class="program-progress-section">
+                            <div class="progress-header"><span>Raised: ₹7,50,000</span><span>Goal: ₹10,00,000</span></div>
+                            <div class="progress-bar"><div class="progress-fill" data-progress="75"></div></div>
+                        </div>
+                        <a href="donate.html" class="btn btn-primary"><i class="fas fa-heart"></i> Support This Program</a>
+                    </div>
+                </div>
+
+                <!-- Program 2: Healthcare -->
+                <div class="program-detail-card reverse" id="healthcare">
+                    <div class="program-detail-image">
+                        <div class="image-placeholder"><i class="fas fa-heartbeat"></i></div>
+                        <span class="program-category">Healthcare</span>
+                    </div>
+                    <div class="program-detail-content">
+                        <h3>Swasthya Seva - Healthcare for Everyone</h3>
+                        <p>Our healthcare program organizes regular medical camps in rural areas, provides free medicines, and conducts health awareness workshops. We focus on preventive healthcare and early detection of diseases.</p>
+                        <div class="program-features">
+                            <div class="feature-item"><i class="fas fa-check"></i> Free medical camps</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Free medicines distribution</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Health checkups</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Awareness workshops</div>
+                        </div>
+                        <div class="program-stats">
+                            <div class="prog-stat"><span class="prog-stat-number">100+</span><span class="prog-stat-label">Medical Camps</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">5000+</span><span class="prog-stat-label">Patients Treated</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">20+</span><span class="prog-stat-label">Partner Hospitals</span></div>
+                        </div>
+                        <div class="program-progress-section">
+                            <div class="progress-header"><span>Raised: ₹3,00,000</span><span>Goal: ₹5,00,000</span></div>
+                            <div class="progress-bar"><div class="progress-fill" data-progress="60"></div></div>
+                        </div>
+                        <a href="donate.html" class="btn btn-primary"><i class="fas fa-heart"></i> Support This Program</a>
+                    </div>
+                </div>
+
+                <!-- Program 3: Nutrition -->
+                <div class="program-detail-card" id="nutrition">
+                    <div class="program-detail-image">
+                        <div class="image-placeholder"><i class="fas fa-bowl-food"></i></div>
+                        <span class="program-category">Nutrition</span>
+                    </div>
+                    <div class="program-detail-content">
+                        <h3>Annapurna Program - No One Should Go Hungry</h3>
+                        <p>Our nutrition program ensures that no one in our community goes to bed hungry. We provide daily meals to orphanages, old age homes, and underprivileged families, focusing on nutritious and wholesome food.</p>
+                        <div class="program-features">
+                            <div class="feature-item"><i class="fas fa-check"></i> Daily meal distribution</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Orphanage support</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Old age home meals</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Emergency food relief</div>
+                        </div>
+                        <div class="program-stats">
+                            <div class="prog-stat"><span class="prog-stat-number">200+</span><span class="prog-stat-label">Families Fed Daily</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">5</span><span class="prog-stat-label">Orphanages Supported</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">3</span><span class="prog-stat-label">Old Age Homes</span></div>
+                        </div>
+                        <div class="program-progress-section">
+                            <div class="progress-header"><span>Raised: ₹4,50,000</span><span>Goal: ₹5,00,000</span></div>
+                            <div class="progress-bar"><div class="progress-fill" data-progress="90"></div></div>
+                        </div>
+                        <a href="donate.html" class="btn btn-primary"><i class="fas fa-heart"></i> Support This Program</a>
+                    </div>
+                </div>
+
+                <!-- Program 4: Community Development -->
+                <div class="program-detail-card reverse" id="community">
+                    <div class="program-detail-image">
+                        <div class="image-placeholder"><i class="fas fa-users"></i></div>
+                        <span class="program-category">Community</span>
+                    </div>
+                    <div class="program-detail-content">
+                        <h3>Samaj Sudhar - Community Development</h3>
+                        <p>Our community development program focuses on building strong, self-reliant communities through skill development, women's empowerment, and environmental initiatives.</p>
+                        <div class="program-features">
+                            <div class="feature-item"><i class="fas fa-check"></i> Skill development workshops</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Women's empowerment programs</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Environmental initiatives</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Self-help groups</div>
+                        </div>
+                        <div class="program-stats">
+                            <div class="prog-stat"><span class="prog-stat-number">30+</span><span class="prog-stat-label">Self-Help Groups</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">200+</span><span class="prog-stat-label">Women Empowered</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">500+</span><span class="prog-stat-label">Trees Planted</span></div>
+                        </div>
+                        <a href="donate.html" class="btn btn-primary"><i class="fas fa-heart"></i> Support This Program</a>
+                    </div>
+                </div>
+
+                <!-- Program 5: Disaster Relief -->
+                <div class="program-detail-card" id="disaster">
+                    <div class="program-detail-image">
+                        <div class="image-placeholder"><i class="fas fa-kit-medical"></i></div>
+                        <span class="program-category">Disaster Relief</span>
+                    </div>
+                    <div class="program-detail-content">
+                        <h3>Samriddhi - Disaster Relief & Emergency Response</h3>
+                        <p>Our disaster relief program provides immediate assistance during natural calamities like floods, earthquakes, and droughts. We ensure quick mobilization of resources and support to affected families.</p>
+                        <div class="program-features">
+                            <div class="feature-item"><i class="fas fa-check"></i> Emergency relief supplies</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Temporary shelter</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Rehabilitation support</div>
+                            <div class="feature-item"><i class="fas fa-check"></i> Volunteer network</div>
+                        </div>
+                        <div class="program-stats">
+                            <div class="prog-stat"><span class="prog-stat-number">20+</span><span class="prog-stat-label">Relief Operations</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">1000+</span><span class="prog-stat-label">Families Helped</span></div>
+                            <div class="prog-stat"><span class="prog-stat-number">50+</span><span class="prog-stat-label">Active Volunteers</span></div>
+                        </div>
+                        <a href="donate.html" class="btn btn-primary"><i class="fas fa-heart"></i> Support This Program</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-bg"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Help Us Continue Our <span class="highlight-text">Mission</span></h2>
+                <p>Your generous contribution can help us reach more people in need. Every rupee counts in making a difference.</p>
+                <div class="cta-buttons">
+                    <a href="donate.html" class="btn btn-primary btn-lg"><i class="fas fa-heart"></i><span>Donate Now</span></a>
+                    <a href="contact.html" class="btn btn-outline btn-lg"><i class="fas fa-envelope"></i><span>Contact Us</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <div class="logo-icon"><i class="fas fa-hands-holding-heart"></i></div>
+                            <div class="logo-text"><span class="logo-main">Krishna's Noble</span><span class="logo-sub">Foundation</span></div>
+                        </div>
+                        <p>कृष्ण'स नोबल फाउंडेशन - Dedicated to transforming lives through service, education, healthcare, and community welfare.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="programs.html">Programs</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Our Programs</h4>
+                        <ul>
+                            <li><a href="#education">Shiksha Samriddhi</a></li>
+                            <li><a href="#healthcare">Swasthya Seva</a></li>
+                            <li><a href="#nutrition">Annapurna Program</a></li>
+                            <li><a href="#community">Samaj Sudhar</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Plot No. 7, Opp Life Line Hospital, M2 Road, T.V. Center, Hudco, Chhatrapati Sambhajinagar, Maharashtra 431003</span></div>
+                        <div class="contact-item"><i class="fas fa-phone"></i><span>091457 37377</span></div>
+                        <div class="contact-item"><i class="fas fa-envelope"></i><span>info@krishnasnoble.org</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Krishna's Noble Foundation. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Krishna's Noble Foundation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="preloader">
+        <div class="loader">
+            <div class="spinner"></div>
+            <div class="foundation-initials">KNF</div>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <div class="logo-icon"><i class="fas fa-hands-holding-heart"></i></div>
+                <div class="logo-text">
+                    <span class="logo-main">Krishna's Noble</span>
+                    <span class="logo-sub">Foundation</span>
+                </div>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="programs.html" class="nav-link">Programs</a></li>
+                <li><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="donate.html" class="btn-donate-nav"><i class="fas fa-heart"></i><span>Donate</span></a>
+                <button class="nav-toggle" id="navToggle"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-header">
+            <div class="mobile-logo"><i class="fas fa-hands-holding-heart"></i><span>Krishna's Noble Foundation</span></div>
+            <button class="mobile-close" id="mobileClose"><i class="fas fa-times"></i></button>
+        </div>
+        <ul class="mobile-nav-menu">
+            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+            <li><a href="programs.html"><i class="fas fa-hand-holding-heart"></i> Programs</a></li>
+            <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+            <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            <li><a href="donate.html" class="mobile-donate-btn"><i class="fas fa-heart"></i> Donate Now</a></li>
+        </ul>
+    </div>
+
+    <section class="page-header">
+        <div class="page-header-bg"><div class="pattern-overlay"></div></div>
+        <div class="container">
+            <div class="page-header-content">
+                <div class="breadcrumbs">
+                    <a href="index.html">Home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <span>Gallery</span>
+                </div>
+                <h1>Our <span class="highlight-text">Gallery</span></h1>
+                <p>Capturing moments of impact, service, and community transformation</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="education">Education</button>
+                <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                <button class="filter-btn" data-filter="food">Food Relief</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item large" data-category="education">
+                    <div class="gallery-image"><i class="fas fa-image"></i></div>
+                    <div class="gallery-overlay">
+                        <h4>Education Program Launch</h4>
+                        <p>Shiksha Samriddhi initiative inauguration</p>
+                        <div class="gallery-actions">
+                            <button class="gallery-action"><i class="fas fa-search-plus"></i></button>
+                            <button class="gallery-action"><i class="fas fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="healthcare">
+                    <div class="gallery-image"><i class="fas fa-image"></i></div>
+                    <div class="gallery-overlay">
+                        <h4>Medical Camp</h4>
+                        <p>Free health checkup camp</p>
+                        <div class="gallery-actions">
+                            <button class="gallery-action"><i class="fas fa-search-plus"></i></button>
+                            <button class="gallery-action"><i class="fas fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="food">
+                    <div class="gallery-image"><i class="fas fa-image"></i></div>
+                    <div class="gallery-overlay">
+                        <h4>Food Distribution</h4>
+                        <p>Daily meal program</p>
+                        <div class="gallery-actions">
+                            <button class="gallery-action"><i class="fas fa-search-plus"></i></button>
+                            <button class="gallery-action"><i class="fas fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image"><i class="fas fa-image"></i></div>
+                    <div class="gallery-overlay">
+                        <h4>Volunteer Meet</h4>
+                        <p>Annual volunteer gathering</p>
+                        <div class="gallery-actions">
+                            <button class="gallery-action"><i class="fas fa-search-plus"></i></button>
+                            <button class="gallery-action"><i class="fas fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="education">
+                    <div class="gallery-image"><i class="fas fa-image"></i></div>
+                    <div class="gallery-overlay">
+                        <h4>Books Distribution</h4>
+                        <p>Free books for students</p>
+                        <div class="gallery-actions">
+                            <button class="gallery-action"><i class="fas fa-search-plus"></i></button>
+                            <button class="gallery-action"><i class="fas fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item large" data-category="events">
+                    <div class="gallery-image"><i class="fas fa-image"></i></div>
+                    <div class="gallery-overlay">
+                        <h4>Foundation Anniversary</h4>
+                        <p>Celebrating years of service</p>
+                        <div class="gallery-actions">
+                            <button class="gallery-action"><i class="fas fa-search-plus"></i></button>
+                            <button class="gallery-action"><i class="fas fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="healthcare">
+                    <div class="gallery-image"><i class="fas fa-image"></i></div>
+                    <div class="gallery-overlay">
+                        <h4>Health Awareness</h4>
+                        <p>Community health workshop</p>
+                        <div class="gallery-actions">
+                            <button class="gallery-action"><i class="fas fa-search-plus"></i></button>
+                            <button class="gallery-action"><i class="fas fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="food">
+                    <div class="gallery-image"><i class="fas fa-image"></i></div>
+                    <div class="gallery-overlay">
+                        <h4>Festival Food Drive</h4>
+                        <p>Special meals during festivals</p>
+                        <div class="gallery-actions">
+                            <button class="gallery-action"><i class="fas fa-search-plus"></i></button>
+                            <button class="gallery-action"><i class="fas fa-share"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-load-more">
+                <button class="btn btn-outline"><i class="fas fa-images"></i> Load More Photos</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-bg"></div>
+        <div class="container">
+            <div class="cta-content">
+                <h2>Be Part of Our <span class="highlight-text">Journey</span></h2>
+                <p>Join us in making a difference. Your support can help us create more such moments of impact.</p>
+                <div class="cta-buttons">
+                    <a href="donate.html" class="btn btn-primary btn-lg"><i class="fas fa-heart"></i><span>Donate Now</span></a>
+                    <a href="contact.html" class="btn btn-outline btn-lg"><i class="fas fa-envelope"></i><span>Contact Us</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <div class="footer-logo">
+                            <div class="logo-icon"><i class="fas fa-hands-holding-heart"></i></div>
+                            <div class="logo-text"><span class="logo-main">Krishna's Noble</span><span class="logo-sub">Foundation</span></div>
+                        </div>
+                        <p>कृष्ण'स नोबल फाउंडेशन - Dedicated to transforming lives through service.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="programs.html">Programs</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Contact Info</h4>
+                        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><span>Plot No. 7, Opp Life Line Hospital, M2 Road, T.V. Center, Hudco, Chhatrapati Sambhajinagar, Maharashtra 431003</span></div>
+                        <div class="contact-item"><i class="fas fa-phone"></i><span>091457 37377</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Krishna's Noble Foundation. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+    <script src="js/main.js"></script>
+</body>
+</html>
